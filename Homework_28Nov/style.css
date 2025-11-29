@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    top:0;
+    background-color: rgb(0, 67, 0);
+    padding-bottom: 10px;
+    color: white;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    gap: 10%;
+    height: fit-content;
+    padding-bottom: 26vh;
+}
+
+#BoxM{
+    width: 30%;
+    border-radius: 5px;
+    /* border: 1px solid black ; */
+    box-shadow: 0px 0px 10px 3px rgb(208, 207, 207);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    min-width: 450px;
+    /* justify-content: center; */
+    padding: 20px 10px;
+    font-size: 17px;
+}
+
+#BoxM h1{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 67, 0);
+    position: fixed;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.lastEle{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputEmail{
+    height: 80%;
+    border-radius: 5px;
+    width: 18%;
+    border: 0px solid black;
+    padding: 8px;
+    font-size: 13px;
+}
+.Subscribe{
+    height: 80%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: rgb(101, 185, 105);
+    border: 0px solid black;
+    color: white;
+    font-size: 15px;
+
+
+}
